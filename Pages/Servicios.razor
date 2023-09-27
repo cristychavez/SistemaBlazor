@@ -1,0 +1,39 @@
+﻿@page "/servicios"
+@using Models
+@using Services
+@inject IServiciosService ServiciosService 
+
+<MudText Typo="Typo.h3">Servicios</MudText>
+
+<MudGrid>
+    @foreach (var item in deptos)
+    {
+        <MudItem xs="12" sm="10" md="6" lg="4">
+            <MudCard>
+                <MudCardHeader Class="blue darken-1">
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h6">@item.Nombre</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+
+                    <MudText Typo="Typo.body2">Disponibilidad del servicio: @item.Estado</MudText>
+
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Link="@($"/munixdepto/{item.Id}")" Variant="Variant.Outlined" Color="Color.Tertiary"
+                           Class="text-center">Ver servicios</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    }
+</MudGrid>
+
+@code {
+    IEnumerable<Servicio> deptos = new List<Servicio>();
+    protected override async Task OnInitializedAsync()
+    {
+        deptos = await ServiciosService.GetAll();
+    }
+
+}
