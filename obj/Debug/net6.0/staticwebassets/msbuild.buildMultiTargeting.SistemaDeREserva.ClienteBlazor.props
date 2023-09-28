@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SistemaDeREserva.ClienteBlazor.props" />
+</Project>

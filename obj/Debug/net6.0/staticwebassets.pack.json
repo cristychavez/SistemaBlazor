@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\obj\\Debug\\net6.0\\build-gz\\HPfYXTN9.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SistemaDeREserva.ClienteBlazor.styles.css",
+      "PackagePath": "staticwebassets\\SistemaDeREserva.ClienteBlazor.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\obj\\Debug\\net6.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\obj\\Debug\\net6.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Bodas.jpeg",
+      "PackagePath": "staticwebassets\\images\\Bodas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Cumpleaños.jpeg",
+      "PackagePath": "staticwebassets\\images\\Cumpleaños.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Quince.años.jpeg",
+      "PackagePath": "staticwebassets\\images\\Quince.años.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\reservas.jpg",
+      "PackagePath": "staticwebassets\\images\\reservas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SistemaDeREserva.ClienteBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SistemaDeREserva.ClienteBlazor.props",
+      "PackagePath": "build\\SistemaDeREserva.ClienteBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SistemaDeREserva.ClienteBlazor.props",
+      "PackagePath": "buildMultiTargeting\\SistemaDeREserva.ClienteBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SistemaDeREserva.ClienteBlazor.props",
+      "PackagePath": "buildTransitive\\SistemaDeREserva.ClienteBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
