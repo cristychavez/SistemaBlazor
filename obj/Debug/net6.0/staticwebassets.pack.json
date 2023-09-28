@@ -37,16 +37,16 @@
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Bodas.jpeg",
-      "PackagePath": "staticwebassets\\images\\Bodas.jpeg"
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\bodas.jpeg",
+      "PackagePath": "staticwebassets\\images\\bodas.jpeg"
     },
     {
-      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Cumpleaños.jpeg",
-      "PackagePath": "staticwebassets\\images\\Cumpleaños.jpeg"
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\cumples.jpeg",
+      "PackagePath": "staticwebassets\\images\\cumples.jpeg"
     },
     {
-      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Quince.años.jpeg",
-      "PackagePath": "staticwebassets\\images\\Quince.años.jpeg"
+      "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\quince.jpeg",
+      "PackagePath": "staticwebassets\\images\\quince.jpeg"
     },
     {
       "Id": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\reservas.jpg",

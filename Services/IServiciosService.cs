@@ -9,8 +9,8 @@ namespace SistemaDeREserva.ClienteBlazor.Services
 {
     public interface IServiciosService
     {
-        Task<IEnumerable<Servicios>> GetAll();
-        Task<IEnumerable<Servicios>> GetByServicios(int idReserav);
-        Task<Servicios> GetById(int id);
+        Task<IEnumerable<Servicio>> GetAll();
+        Task<IEnumerable<Servicio>> GetByServicios(int idReserav);
+        Task<Servicio> GetById(int id);
     }
 }

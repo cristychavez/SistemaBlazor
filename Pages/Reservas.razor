@@ -25,6 +25,7 @@ else
                         <MudText Typo="Typo.body2">@item.Descripcion</MudText>
                     </MudCardContent>
                     <MudCardActions>
+                        <Reservas />
                         <MudButton Link="@($"/detalles/{item.Id}")" Variant="Variant.Outlined" Color="Color.Success">Detalles</MudButton>
                     </MudCardActions>
                 </MudCard>
@@ -33,7 +34,7 @@ else
     </MudGrid>
 }
 
-<img src="images/Bodas.jpg" alt="reservas" width="100%" />
+<img src="images/reservas.jpg" alt="reservas" width="100%" />
 
 
 @code {
