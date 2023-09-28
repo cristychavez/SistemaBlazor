@@ -5,13 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace SistemaDeREserva.ClienteBlazor.Services
 {
-    public interface IReservaService
+    public class IMesasService
     {
-        Task<IEnumerable<Reserva>> GetAll();
-        Task<IEnumerable<Reserva>> GetByServicios(int idServicio);
-        Task<Reserva> GetById(int id);
+        Task<IEnumerable<Mesas>> GetAll();
+        Task<IEnumerable<Mesas>> GetByServicios(int idReserav);
+        Task<Mesas> GetById(int id);
     }
 }
- 

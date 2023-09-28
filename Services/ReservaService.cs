@@ -26,7 +26,7 @@ namespace SistemaDeREserva.ClienteBlazor.Services
             return JsonSerializer.Deserialize<IEnumerable<Reserva>>(resp, options);
         }
 
-        public async Task<IEnumerable<Reserva>> GetByDepartamento(int idServicios)
+        public async Task<IEnumerable<Reserva>> GetByServicios(int idServicios)
         {
             var resp = await client.PostAsJsonAsync($"Reserva/Buscar", new { idServicios = idServicios });
             string respString = await resp.Content.ReadAsStringAsync();
