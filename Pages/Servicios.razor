@@ -6,7 +6,7 @@
 <MudText Typo="Typo.h3">Servicios</MudText>
 
 <MudGrid>
-    @foreach (var item in deptos)
+    @foreach (var item in SistemaDeREserva)
     {
         <MudItem xs="12" sm="10" md="6" lg="4">
             <MudCard>
@@ -30,10 +30,10 @@
 </MudGrid>
 
 @code {
-    IEnumerable<Servicio> deptos = new List<Servicio>();
+    IEnumerable<Servicio> SistemaDeREserva = new List<Servicio>();
     protected override async Task OnInitializedAsync()
     {
-        deptos = await ServiciosService.GetAll();
+        SistemaDeREserva = await ServiciosService.GetAll();
     }
 
 }

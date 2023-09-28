@@ -17,6 +17,18 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-0NDJAFOJu9zyU6Vhxai\/YiLcRdmHotb7ICCo+5WjTB8=",
+      "url": "images\/Bodas.jpeg"
+    },
+    {
+      "hash": "sha256-z969pAzCCuzcW8EeYSVsKrcAFM8uJahM5mRT8ZEyTHA=",
+      "url": "images\/Cumpleaños.jpeg"
+    },
+    {
+      "hash": "sha256-xv9op69hi4DOYakFyjI9lvPMV0RvSbCcRdd2WWS4aHU=",
+      "url": "images\/Quince.años.jpeg"
+    },
+    {
       "hash": "sha256-R2\/n4kj3FADgpLp2Ntqi+kaSoSdtKJE0Mcr9cSsNq80=",
       "url": "images\/reservas.jpg"
     },
@@ -833,11 +845,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Ub6GzUnOOpGYKTOkcZnqoFfjATuqfjgGDrCACDOkndM=",
+      "hash": "sha256-uLsg0fkhgrA9KL\/uoohp7Pal\/oOQKLewAk\/vHaLcuiw=",
       "url": "_framework\/SistemaDeREserva.ClienteBlazor.dll"
     },
     {
-      "hash": "sha256-02kJnJ4cYgN7XdkTGxcnZB2KSI+WZBHnNBHndB8WxCo=",
+      "hash": "sha256-LGTHHJp3MSOuUbgbycCAHVIjzGTSof\/QXmUjmAVc820=",
       "url": "_framework\/SistemaDeREserva.ClienteBlazor.pdb"
     },
     {
@@ -845,7 +857,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-FeME\/FWyhBpppbKklWBoM3rvUWQuRObBLfWABz8kaos=",
+      "hash": "sha256-HeQtg2o\/BEv1EtfLy0EQo3iNTuHX22g3OhJycRk8XrQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -857,5 +869,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "QmDhUPbL"
+  "version": "VBfDW1JF"
 };
