@@ -12,9 +12,9 @@ namespace SistemaDeREserva.ClienteBlazor.Services
     {
         //inyección de dependencias de HttpClient
         private readonly HttpClient client;
-        public ReservaService(HttpClient httpClient)
+        public ReservaService(HttpClient httpCliente)
         {
-            client = httpClient;
+            client = httpCliente;
         }
 
         //configurar las opciones del Serializador
@@ -26,9 +26,9 @@ namespace SistemaDeREserva.ClienteBlazor.Services
             return JsonSerializer.Deserialize<IEnumerable<Reserva>>(resp, options);
         }
 
-        public async Task<IEnumerable<Reserva>> GetByDepartamento(int idDepto)
+        public async Task<IEnumerable<Reserva>> GetByDepartamento(int idServicios)
         {
-            var resp = await client.PostAsJsonAsync($"Reserva/Buscar", new { idServicios = idDepto });
+            var resp = await client.PostAsJsonAsync($"Reserva/Buscar", new { idServicios = idServicios });
             string respString = await resp.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<IEnumerable<Reserva>>(respString, options);
         }
