@@ -15,7 +15,7 @@ namespace SistemaDeREserva.ClienteBlazor.Services
 
         //inyección de dependencias de HttpClient
         private readonly HttpClient client;
-        public ReservaService(HttpClient httpClient)
+        public ServiciosService(HttpClient httpClient)
         {
             client = httpClient;
         }
@@ -23,23 +23,23 @@ namespace SistemaDeREserva.ClienteBlazor.Services
         //configurar las opciones del Serializador
         JsonSerializerOptions options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
-        public async Task<IEnumerable<Reserva>> GetAll()
+        public async Task<IEnumerable<Servicio>> GetAll()
         {
-            string resp = await client.GetStringAsync($"Reserva");
-            return JsonSerializer.Deserialize<IEnumerable<Reserva>>(resp, options);
+            string resp = await client.GetStringAsync($"Servicio");
+            return JsonSerializer.Deserialize<IEnumerable<Servicio>>(resp, options);
         }
 
-        public async Task<IEnumerable<Reserva>> GetByDepartamento(int idReservas)
+        public async Task<IEnumerable<Servicio>> GetByServicios(int idReservas)
         {
-            var resp = await client.PostAsJsonAsync($"Reserva/Buscar", new { idServicios = idReservas });
+            var resp = await client.PostAsJsonAsync($"Servicio/Buscar", new { idServicios = idReservas });
             string respString = await resp.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<IEnumerable<Reserva>>(respString, options);
+            return JsonSerializer.Deserialize<IEnumerable<Servicio>>(respString, options);
         }
 
-        public async Task<Reserva> GetById(int id)
+        public async Task<Servicio> GetById(int id)
         {
-            string resp = await client.GetStringAsync($"Reserva/{id}");
-            return JsonSerializer.Deserialize<Reserva>(resp, options);
+            string resp = await client.GetStringAsync($"Servicio/{id}");
+            return JsonSerializer.Deserialize<Servicio>(resp, options);
         }
     }
 }

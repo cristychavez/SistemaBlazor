@@ -18,15 +18,15 @@
     },
     {
       "hash": "sha256-0NDJAFOJu9zyU6Vhxai\/YiLcRdmHotb7ICCo+5WjTB8=",
-      "url": "images\/Bodas.jpeg"
+      "url": "images\/bodas.jpeg"
     },
     {
       "hash": "sha256-z969pAzCCuzcW8EeYSVsKrcAFM8uJahM5mRT8ZEyTHA=",
-      "url": "images\/Cumpleaños.jpeg"
+      "url": "images\/cumples.jpeg"
     },
     {
       "hash": "sha256-xv9op69hi4DOYakFyjI9lvPMV0RvSbCcRdd2WWS4aHU=",
-      "url": "images\/Quince.años.jpeg"
+      "url": "images\/quince.jpeg"
     },
     {
       "hash": "sha256-R2\/n4kj3FADgpLp2Ntqi+kaSoSdtKJE0Mcr9cSsNq80=",
@@ -817,6 +817,10 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
+      "hash": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
+      "url": "_framework\/dotnet.6.0.14.skcyg668k9.js"
+    },
+    {
       "hash": "sha256-2NJf++ql6UnbRRdYWEir6MxH58bYGWDEqofII\/z+Xmo=",
       "url": "_framework\/dotnet.timezones.blat"
     },
@@ -841,11 +845,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-uLsg0fkhgrA9KL\/uoohp7Pal\/oOQKLewAk\/vHaLcuiw=",
+      "hash": "sha256-fIcSB4PsPUp8v+IHuDWwK5RxGJBtcq20BseqQeIfx9s=",
       "url": "_framework\/SistemaDeREserva.ClienteBlazor.dll"
     },
     {
-      "hash": "sha256-LGTHHJp3MSOuUbgbycCAHVIjzGTSof\/QXmUjmAVc820=",
+      "hash": "sha256-SJT8zzmCDpNLIvFbQmsiRq+fkIdf0tvsQuV+FKWhloo=",
       "url": "_framework\/SistemaDeREserva.ClienteBlazor.pdb"
     },
     {
@@ -853,12 +857,8 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-HeQtg2o\/BEv1EtfLy0EQo3iNTuHX22g3OhJycRk8XrQ=",
+      "hash": "sha256-Qg7w\/78ni0Gt\/fn6gnYf72Fa0TvHLDcVr559EfNfAUU=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
-      "url": "_framework\/dotnet.6.0.14.skcyg668k9.js"
     },
     {
       "hash": "sha256-hXpMXtiNbCWZV6y1GdjqYYIzCbHWyWSEdWwTSM16CjQ=",
@@ -869,5 +869,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "PHCRzNC1"
+  "version": "9b+DiDl7"
 };

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DLRwju0GuAn2SQzlEjjb2KLqq8TXZrrQHpJ6sE5G0qc=",
+  "Hash": "ZxXuOhcw7RjY4CPeK/VV1I2R88cCkKevNuC1q9K0464=",
   "Source": "SistemaDeREserva.ClienteBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7106,12 +7106,12 @@
       "OriginalItemSpec": "wwwroot\\icon-512.png"
     },
     {
-      "Identity": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Bodas.jpeg",
+      "Identity": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\bodas.jpeg",
       "SourceId": "SistemaDeREserva.ClienteBlazor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/Bodas.jpeg",
+      "RelativePath": "images/bodas.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7120,15 +7120,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Bodas.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\bodas.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Cumpleaños.jpeg",
+      "Identity": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\cumples.jpeg",
       "SourceId": "SistemaDeREserva.ClienteBlazor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/Cumpleaños.jpeg",
+      "RelativePath": "images/cumples.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7137,15 +7137,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Cumpleaños.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\cumples.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\Quince.años.jpeg",
+      "Identity": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\quince.jpeg",
       "SourceId": "SistemaDeREserva.ClienteBlazor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/Quince.años.jpeg",
+      "RelativePath": "images/quince.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7154,7 +7154,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Quince.años.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\quince.jpeg"
     },
     {
       "Identity": "C:\\Users\\MEGA\\Desktop\\nuevo\\Blazor\\SistemaBlazor\\wwwroot\\images\\reservas.jpg",
