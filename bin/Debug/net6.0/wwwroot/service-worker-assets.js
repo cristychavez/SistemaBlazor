@@ -17,8 +17,12 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-ItwowB3001E+8G1j\/ysj\/jXbB7kLdbBsVPvhWR0pUoM=",
+      "url": "images\/Boda.jpg"
+    },
+    {
       "hash": "sha256-0NDJAFOJu9zyU6Vhxai\/YiLcRdmHotb7ICCo+5WjTB8=",
-      "url": "images\/bodas.jpeg"
+      "url": "images\/Bodas.jpeg"
     },
     {
       "hash": "sha256-z969pAzCCuzcW8EeYSVsKrcAFM8uJahM5mRT8ZEyTHA=",
@@ -27,6 +31,10 @@
     {
       "hash": "sha256-xv9op69hi4DOYakFyjI9lvPMV0RvSbCcRdd2WWS4aHU=",
       "url": "images\/quince.jpeg"
+    },
+    {
+      "hash": "sha256-sOOV7tcttAaN1howLeMsc\/uPFwrRWD2ZVJPYArw\/nL4=",
+      "url": "images\/Quinceaños.jpg"
     },
     {
       "hash": "sha256-R2\/n4kj3FADgpLp2Ntqi+kaSoSdtKJE0Mcr9cSsNq80=",
@@ -817,8 +825,8 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
-      "url": "_framework\/dotnet.6.0.14.skcyg668k9.js"
+      "hash": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",
+      "url": "_framework\/dotnet.6.0.8.5qvbcwublj.js"
     },
     {
       "hash": "sha256-SfxsI5ShckhP73xCMgz3EUrJ5z217yWRW+XFEaAdTwU=",
@@ -845,11 +853,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-+1Snxc7fm\/AqcEU5zlC4K5TSfXn3V2rM2fY+Y1ElfWI=",
+      "hash": "sha256-NHOHJ5J+sJ3u2SIhA6qlk0YLZRB0X43E2O62ThToUes=",
       "url": "_framework\/SistemaDeREserva.ClienteBlazor.dll"
     },
     {
-      "hash": "sha256-ZqUnoybxnligUAC7shdEcxBj3vgqYaaDBmwvhTuhlBo=",
+      "hash": "sha256-jOrg3gAmnvpiGyDpjzHosSUxPvT7tZCqwr9G52pQO40=",
       "url": "_framework\/SistemaDeREserva.ClienteBlazor.pdb"
     },
     {
@@ -857,7 +865,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-uM8m1n9tE00tEd8U0oPLFPSoPll5WyGPMLjD7b4+UZ4=",
+      "hash": "sha256-5WlfWvceO7fR23uFFu\/\/kXFqVQZ+F7T85fmvoPmDHDI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -869,5 +877,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "n3blYzRN"
+  "version": "jWUdxIsl"
 };

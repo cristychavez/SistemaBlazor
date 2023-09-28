@@ -21,8 +21,8 @@ namespace SistemaDeREserva.ClienteBlazor
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
-           //criisty builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:44310/api/") });
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:44310/api/") });
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7143//api/") });
+            //Andrea builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:44310/api/") });
             builder.Services.AddScoped<IServiciosService, ServiciosService>(); //importacion de los servicios de MudBlazor
             builder.Services.AddScoped<IReservaService, ReservaService>();
             builder.Services.AddMudServices();

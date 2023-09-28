@@ -10,40 +10,35 @@ using System.Threading.Tasks;
 
 namespace SistemaDeREserva.ClienteBlazor.Services
 {
-    public class MesasService
+    public class MesasService : IMesaService
     {
-
-        public class ServiciosService : IServiciosService
+        //inyección de dependencias de HttpClient
+        private readonly HttpClient client;
+        public MesasService(HttpClient httpClient)
         {
-
-            //inyección de dependencias de HttpClient
-            private readonly HttpClient client;
-            public ReservaService(HttpClient httpClient)
-            {
-                client = httpClient;
-            }
-
-            //configurar las opciones del Serializador
-            JsonSerializerOptions options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-
-            public async Task<IEnumerable<Reserva>> GetAll()
-            {
-                string resp = await client.GetStringAsync($"Reserva");
-                return JsonSerializer.Deserialize<IEnumerable<Reserva>>(resp, options);
-            }
-
-            public async Task<IEnumerable<Reserva>> GetByDepartamento(int idReservas)
-            {
-                var resp = await client.PostAsJsonAsync($"Reserva/Buscar", new { idServicios = idReservas });
-                string respString = await resp.Content.ReadAsStringAsync();
-                return JsonSerializer.Deserialize<IEnumerable<Reserva>>(respString, options);
-            }
-
-            public async Task<Reserva> GetById(int id)
-            {
-                string resp = await client.GetStringAsync($"Reserva/{id}");
-                return JsonSerializer.Deserialize<Reserva>(resp, options);
-            }
+            client = httpClient;
         }
+
+        //configurar las opciones del Serializador
+        JsonSerializerOptions options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+
+        public async Task<IEnumerable<Mesa>> GetAll()
+        {
+            string resp = await client.GetStringAsync($"Reserva");
+            return JsonSerializer.Deserialize<IEnumerable<Mesa>>(resp, options);
+        }
+
+        public async Task<IEnumerable<Mesa>> GetByServicios(int idReservas)
+        {
+            var resp = await client.PostAsJsonAsync($"Reserva/Buscar", new { idServicios = idReservas });
+            string respString = await resp.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<IEnumerable<Mesa>>(respString, options);
+        }
+
+        public async Task<Mesa> GetById(int id)
+        {
+            string resp = await client.GetStringAsync($"Reserva/{id}");
+            return JsonSerializer.Deserialize<Mesa>(resp, options);
+        }        
     }
 }
