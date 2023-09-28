@@ -869,5 +869,13 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
+<<<<<<< HEAD
   "version": "9b+DiDl7"
+=======
+<<<<<<< HEAD
+  "version": "VBfDW1JF"
+=======
+  "version": "PHCRzNC1"
+>>>>>>> 3b721a58cda64593482d42e7dd3e889dac9678c2
+>>>>>>> 66051ed17c4d369f8e6182c049beb6f1f4073ea7
 };

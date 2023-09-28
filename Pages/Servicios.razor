@@ -6,7 +6,11 @@
 <MudText Typo="Typo.h3">Servicios</MudText>
 
 <MudGrid>
+<<<<<<< HEAD
     @foreach (var item in reservas)
+=======
+    @foreach (var item in SistemaDeREserva)
+>>>>>>> 66051ed17c4d369f8e6182c049beb6f1f4073ea7
     {
         <MudItem xs="12" sm="10" md="6" lg="4">
             <MudCard>
@@ -34,10 +38,17 @@
 <img src="images/quince.jpeg" alt="servicio" width="30%" />
 
 @code {
+<<<<<<< HEAD
     IEnumerable<Servicio> reservas = new List<Servicio>();
     protected override async Task OnInitializedAsync()
     {
         reservas = await ServiciosService.GetAll();
+=======
+    IEnumerable<Servicio> SistemaDeREserva = new List<Servicio>();
+    protected override async Task OnInitializedAsync()
+    {
+        SistemaDeREserva = await ServiciosService.GetAll();
+>>>>>>> 66051ed17c4d369f8e6182c049beb6f1f4073ea7
     }
 
 }
