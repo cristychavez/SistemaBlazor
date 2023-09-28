@@ -829,7 +829,9 @@ C:\Users\50360\Desktop\SistemaDeREserva.ClienteBlazor\obj\Debug\net6.0\SistemaDe
 C:\Users\50360\Desktop\SistemaDeREserva.ClienteBlazor\obj\Debug\net6.0\refint\SistemaDeREserva.ClienteBlazor.dll
 C:\Users\50360\Desktop\SistemaDeREserva.ClienteBlazor\obj\Debug\net6.0\SistemaDeREserva.ClienteBlazor.pdb
 C:\Users\50360\Desktop\SistemaDeREserva.ClienteBlazor\obj\Debug\net6.0\ref\SistemaDeREserva.ClienteBlazor.dll
+C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.14.skcyg668k9.js
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
@@ -868,6 +870,8 @@ C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_frame
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\SistemaDeREserva.ClienteBlazor.dll
+C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\SistemaDeREserva.ClienteBlazor.pdb
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll
@@ -1028,10 +1032,6 @@ C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_frame
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll
-C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.14.skcyg668k9.js
-C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\SistemaDeREserva.ClienteBlazor.dll
-C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\SistemaDeREserva.ClienteBlazor.pdb
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
 C:\Users\MEGA\Desktop\nuevo\Blazor\SistemaBlazor\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
